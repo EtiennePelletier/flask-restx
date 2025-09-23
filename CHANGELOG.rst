@@ -35,6 +35,7 @@ Bug Fixes
 ::
 
    * Add python version requirement on setup.py (#586) [jason-the-j]
+   * Add a thread lock to avoid concurrent schema construction. (#545) [peter-doggart]
    * Fix Nested field schema generation for nullable fields. (#638) [peter-doggart]
    * Fix reference resolution for definitions in schema. (#553) [peter-doggart]
 
